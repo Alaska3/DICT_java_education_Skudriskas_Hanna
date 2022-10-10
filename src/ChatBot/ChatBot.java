@@ -22,5 +22,15 @@ public class ChatBot {
         for (int i = 0; i <= count; i++) {
             System.out.print(i + "! \n");
         }
+        System.out.println("Let's test your programming knowledge.");
+        System.out.println("What do all elements of an array have in common?");
+        System.out.println("1.Their names; \n2.Their size; \n3.Their memory adDress; \n4.Their data type.");
+        int j = in.nextInt();
+        while (j != 4) {
+            System.out.println("Please, try again.");
+            j = in.nextInt();
+        }
+        System.out.println("Great, you right!");
+        System.out.println("Goodbye, have a nice day!");
     }
 }
